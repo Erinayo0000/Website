@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">About me</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">Registration</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+
+    <main>
+         <div class=" container">
+             <h1>REGISTRATION FORM</h1>
+             <p>please fill in this form to register</p>
+            </div>
+            <br><hr>
+              <form action="">
+                  <fieldset>
+                    <div class="container"> 
+                        <label for="fname"><b>FIRST NAME:</b></label>
+                        <input type="text"
+                        placeholder="Enter First name" name="fname" id="fname" required>
+                    </div>
+                            
+                          <div class="container">
+                            <label for="lname"><b>LAST NAME:</b></label>
+                            <input type="text" 
+                            placeholder="Enter Last name" name="lname" maxlength="20" minlength="3" id="lname" required>
+                    
+                          </div>
+                    
+                          <div class="container">
+                            <label for="pnumber"><b>PHONE NUMBER:</b></label>
+                              <input type="number" 
+                              placeholder="Enter phone number" name="pnumber" id="pnumber" required>
+                    
+                          </div>
+                          
+                          <div class="container">
+                            <label for="gender"><b>GENDER:</b></label>
+                            <select name="gender" id="gender" required>
+                                <option value="female">female</option>
+                                <option value="male">male</option>
+                            </select>
+                    
+                          </div>
+                                 
+                              <div class="container">
+                                <label for="country"><b>COUNTRY:</b></label>
+                                <input type="text" 
+                                 placeholder="Enter your country" name="country" id="country"required>
+                      
+                              </div>
+                          
+                                <div class="container">
+                              <label for="state/province"><b>STATE/PROVINCE:</b></label>
+                              <input type="text"
+                               placeholder="Enter your state" name="state"  id="state" required>
+                                  </div> 
+                    
+                          <div class="container">
+                            <label for="email"><b>EMAIL:</b></label>
+                              <input type="email"  
+                              placeholder="Enter your email" name="email" id="email" required>
+                          </div>
+                          
+                          <div class="container">
+                            <label for="psword"><b>PASSWORD:</b></label>
+                            <input type="password"
+                            placeholder="Enter your password " name="psword" id="" required>
+                     
+                          </div>
+                    
+                          <div class="container">
+                            <label for="confirmpsword"><b>COMFIRM PASSWORD:</b></label>
+                            <input type="text" 
+                             placeholder="Comfirm your password" name="cpasword" id="cpasword" required>
+                          </div>
+                          <hr>
+                          <p>By registering you agree to our <a href="#">Terms & Privacy</a></p>
+                          
+                          <div class="registerbtn">
+                            <button type="submit"> Register</button>
+                          </div>
+                  </fieldset>
+              </form>  
+    </main>
+    <footer>
+        <div class="copyright">
+             &copy;Olusanmi Pamilerin 2022. All right reserved
+         </div>
+     </footer>
+
+</body>
+</html>
